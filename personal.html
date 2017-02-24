@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Page</title>
+	<title>Main Page</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -9,38 +9,45 @@
 		<h3>PHILIP WALTON</h3>
 		<h5>Engineer @ Google </h5>
 		<div id = "navPlus">	
-			<img src ="twitter-logo-button.jpeg" alt ="twitter">
-			<img src = "GitHub-Mark-32px.png" alt ="github">
-			<img src = "rss-logo-button.jpeg" alt ="rss">
-			<p class= "a_a"><a href = "articles.html">Articles</a></p>
-			<p class = "a_a"><a href="about.html">About</a></p>
+				<div id ="icon_box">
+				<img src ="twitter-logo-button.jpeg" alt ="twitter" class = "icon" id = "twitter">
+				<img src = "GitHub-Mark-32px.png" alt ="github" class = "icon" id = "github">
+				<img src = "rss-logo-button.jpeg" alt ="rss" class = "icon" id = "rss">
+			</div>
+			<div id = "a_contain">
+				<p class= "a_a"><a href = "articles.html">Articles</a></p>
+				<p class= "a_a"><a href="about.html">About</a></p>
+			</div>
+			<div class = "clear"></div>
+
 			<!-- dingbats.com -->
 		</div>
 
 	</header>
+		<img src ="hero.jpeg" alt ="freedownload" class ="hero">
 	<div id="main_articles">
-		<div class = "article">
-			<h5>Recent Articles</h5>
+		<div>
+			<h4>Recent Articles</h4>
 		</div>
 		<div >
-			<h6>September -ish</h6>
-			<h2><a href ="dishwasher.html">Loading the Dishwasher</a></h2>
+			<h5 class = "article_date">September -ish</h5>
+			<h2> <a href ="dishwasher.html">Loading the Dishwasher</a></h2>
 			<p>New ideas for loading dishwashers 
 			are being presented constantly, and
 			as such many terrible constants have
 			slipped into our...</p>
 		</div>
 		<div>
-			<h6> August 19, 2134</h6>
-			<h2><a href = "space_comunism.html">Untagling Rationality in The Modern Space Communist Era</a></h2>
+			<h5 class = "article_date"> August 19, 2134</h5>
+			<h2 class = "mp_article_header"><a href = "space_comunism.html">Untagling Rationality in The Modern Space Communist Era</a></h2>
 			<p>The removal of unmeetable needs 
 			has had a drastic effect on the 
 			human psyche in the past fifty 
 			years, with...</p>
 		</div>
 		<div>
-			<h6> B.C. 3100</h6>
-			<h2> <a href = "flee_flee.html">Completion of Solstace Celebration Site</a></h2>
+			<h5 class = "article_date"> B.C. 3100</h5>
+			<h2 class = "mp_article_header"> <a href = "flee_flee.html">Completion of Solstace Celebration Site</a></h2>
 			<p>With the completion of the Solstace
 			Celebration Site and Resort SSCRLLC
 			moves one step closer to offering the
